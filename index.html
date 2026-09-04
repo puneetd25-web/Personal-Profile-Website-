@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Puneet Dularia — B.Tech IT (Cybersecurity) Student. Personal portfolio showcasing skills in cybersecurity, web development, and creative work." />
+  <title>Puneet Dularia</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAVIGATION ═══════════════════════════════ -->
+  <header class="nav-wrapper" id="nav">
+    <nav class="nav-inner">
+      <a href="#home" class="nav-logo">PD<span class="logo-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════ HERO ═══════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-eyebrow" data-reveal>Welcome</p>
+        <h1 class="hero-name" data-reveal>Hi, I'm<br><span class="accent">Puneet Dularia</span></h1>
+        <p class="hero-role" data-reveal>B.Tech IT (Cybersecurity) Student</p>
+        <p class="hero-intro" data-reveal>
+          Passionate about technology, security, and building things — from secure systems to clean web experiences.
+        </p>
+        <div class="hero-cta" data-reveal>
+          <a href="#skills" class="btn btn-primary">Explore My Skills</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit-ring ring-1"></div>
+        <div class="orbit-ring ring-2"></div>
+        <div class="orbit-ring ring-3"></div>
+        <div class="orbit-core">
+          <span>&#123; &#125;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ ABOUT ════════════════════════════════════ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm a B.Tech student specialising in Information Technology with a focus on Cybersecurity.
+              I enjoy learning by building — whether that means experimenting with Linux security tools,
+              writing code, or creating visual content.
+            </p>
+            <p>
+              My interests span both the technical and the creative. On one side, I like understanding
+              how systems work and how to protect them. On the other, I enjoy photography, video editing,
+              and visual storytelling.
+            </p>
+          </div>
+
+          <div class="about-cards">
+            <div class="info-card">
+              <div class="info-card-icon">🎓</div>
+              <div>
+                <h3 class="info-card-title">Education</h3>
+                <p class="info-card-body">B.Tech in Information Technology<br><span class="accent-text">Cybersecurity Specialisation</span></p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-card-icon">🔍</div>
+              <div>
+                <h3 class="info-card-title">Interests</h3>
+                <ul class="interest-list">
+                  <li>Cybersecurity</li>
+                  <li>Web Development</li>
+                  <li>Programming</li>
+                  <li>Photography</li>
+                  <li>Video Editing</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ SKILLS ═══════════════════════════════════ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills</h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">⌨️</span> Programming
+            </h3>
+            <div class="badge-cluster">
+              <span class="badge">C</span>
+              <span class="badge">C++</span>
+              <span class="badge">Object-Oriented Programming</span>
+              <span class="badge">Git &amp; GitHub</span>
+              <span class="badge">Linux</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🌐</span> Web Development
+            </h3>
+            <div class="badge-cluster">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🔒</span> Cybersecurity
+            </h3>
+            <div class="badge-cluster">
+              <span class="badge">Cybersecurity Fundamentals</span>
+              <span class="badge">Linux Security</span>
+              <span class="badge">Network Basics</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="category-title">
+              <span class="category-icon">🎨</span> Creative
+            </h3>
+            <div class="badge-cluster">
+              <span class="badge">Photography</span>
+              <span class="badge">Video Editing</span>
+              <span class="badge">Graphic Design</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ PROJECTS ══════════════════════════════════ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="title-line"></div>
+          <p class="section-subtitle">Real projects coming soon.....</p>
+        </div>
+
+
+
+          <article class="project-card placeholder-card">
+            <div class="project-tag">Web Development Project</div>
+            <h3 class="project-title">Business Card</h3>
+            <p class="project-desc">
+              A modern, interactive, and responsive digital visiting card featuring 3D tilt effects, click-to-copy contact details, and dynamic social media links.
+            </p>
+
+            <br>
+
+            <div class="project-stack">
+              <span class="stack-tag">HTML</span>
+              <span class="stack-tag">CSS</span>
+              <span class="stack-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="View code">&#60;/&#62; Code</a>
+              <a href="#" class="project-link project-link-accent" aria-label="Live demo">↗ Live</a>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════ CONTACT ══════════════════════════════════ -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <div class="title-line"></div>
+          <p class="section-subtitle">Reach out — I'm always open to connecting.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <a href="mailto:puneet.working02@gmail.com" class="contact-card" aria-label="Email">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <p class="contact-label">Email</p>
+              <!-- Replace with your real email -->
+              <p class="contact-value">puneet.working02@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/puneet-dularia-916783387/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOYFDdTGoSgCEv8ycbY0YJw%3D%3D" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="LinkedIn">
+            <div class="contact-icon">in</div>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <!-- Replace with your real LinkedIn URL -->
+              <p class="contact-value">linkedin.com/in/puneet-dularia-916783387</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/puneetd25-web" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="GitHub">
+            <div class="contact-icon">⌥</div>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <!-- Replace with your real GitHub URL -->
+              <p class="contact-value">github.com/puneetd25-web</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════ FOOTER ══════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Puneet Dularia</p>
+      <p class="footer-copy">&copy; 2026 Puneet Dularia. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
